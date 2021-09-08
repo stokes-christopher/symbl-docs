@@ -28,7 +28,7 @@ The Python SDK provides the following capabilities:
 
 ## Start Connection
 
-The code snippet below allows you to a Streaming API connection with Symbl via WebSocket. This returns a connection object:
+The code snippet below allows you to start a Streaming API connection with Symbl via WebSocket. This returns a connection object:
 ```py
 import symbl
 connection_object = symbl.Streaming.start_connection(
